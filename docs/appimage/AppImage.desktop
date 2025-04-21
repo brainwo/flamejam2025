@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Enhanced 3/82^6
+Type=Application
+Terminal=false
+Exec=flamejam2025 %u
+Icon=flamejam2025_icon
+Categories=Game;
