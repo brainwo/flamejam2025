@@ -35,6 +35,11 @@ android {
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("debug")
         }
+
+	    getByName("debug") {
+	        applicationIdSuffix = ".debug"
+	        isDebuggable = true
+	    }
     }
 }
 
