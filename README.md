@@ -11,10 +11,6 @@ Made for Flame Jam 2025, 18-27 April 2025
 > [!NOTE]
 > This projects feature third-party assets. All code and assets are written and made during the jam. No generative-made code and assets are used.
 
-### Checklist
-
-- [ ] Make better AppImage build (https://docs.appimage.org/reference/appdir.html#ref-appdir-specification)
-
 ---
 
 ### Licenses
@@ -25,4 +21,7 @@ Source code available under BSD3 license. Check [LICENSE](./LICENSE) for usage a
 
 ### Third Party License
 
-[To be filled]
+<details>
+  <summary>8-Bit Sound Effects Library from LittleRobotSoundFactory</summary>
+  https://creativecommons.org/licenses/by/4.0/
+</details>

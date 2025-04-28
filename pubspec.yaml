@@ -5,16 +5,20 @@ publish_to: none
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.2
+  sdk: ^3.7.0
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  shadcn_ui: ^0.24.0
+  shadcn_ui: any
   flame: ^1.28.0
   flame_audio: ^2.11.4
+  flame_riverpod: ^5.4.13
+  flutter_riverpod: ^2.6.1
+  flame_console: ^0.1.2+6
+  flutter_animate: ^4.5.2
 
 dev_dependencies:
   flutter_test:
@@ -24,3 +28,20 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/audio/
+
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/SpaceGrotesk-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SpaceGrotesk-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SpaceGrotesk-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+          weight: 700
